@@ -1,0 +1,126 @@
+/*general*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%
+}
+
+a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+}
+
+.icon {
+  width: 4rem;
+  margin: 0 0.5rem;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.9rem;
+}
+
+/*styles*/
+
+header {
+  height: 6rem;
+  background-color: rgb(67, 90, 149);
+  display: flex;
+  padding: 1.5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 6rem;
+}
+
+.presentation__photo {
+  width: 100%;
+}
+
+.presentation__text {
+  background-color: rgb(248, 248, 248);
+  text-align: center;
+}
+
+.presentation__text > h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+}
+
+.presentation__text > p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+}
+
+.main__p {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main__section {
+  padding: 1rem 2rem;
+}
+
+#web {
+  background-color: rgb(203, 203, 203);
+  background-image: url(../img/background/web.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#web__image {
+  width: 100%;
+}
+
+#portafolio-web > div {
+}
+
+.portafolio-item {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.portafolio-item > a > img {
+  width: 75%;
+}
+
+.footer {
+  background-color: rgb(163, 163, 163);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__social__icons > a > img {
+  width: 4.5rem;
+
+  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
