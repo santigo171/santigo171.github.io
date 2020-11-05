@@ -15,13 +15,17 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .icon {
   width: 4rem;
   margin: 0 0.5rem;
 }
 
 h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2.4rem;
 }
 
@@ -33,6 +37,10 @@ h3 {
 p {
   font-family: 'Karla', sans-serif;
   font-size: 1.9rem;
+}
+
+li {
+  list-style: none;
 }
 
 /*styles*/
@@ -64,10 +72,41 @@ header {
   font-size: 3.5rem;
 }
 
-.presentation__text > p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 3.5rem;
+.main__gallery {
+  width: 100%;
+  overflow: hidden;
+
+  animation: cambio 20s infinite;
 }
+
+.main__gallery ul {
+  display: flex;
+  width: 900%;
+}
+
+.main__gallery li {
+  width: 100%;
+}
+
+.main__gallery img {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
 
 .main__p {
   display: flex;
