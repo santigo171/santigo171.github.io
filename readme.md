@@ -8,7 +8,7 @@ Hola, me alegra mucho que estés leyendo esto, mi nombre es David Hurtado, Junio
 
 ## Contacto:
 
-Me puedes encontrar en gran parte de las redes sociales como @santigo171, como en [[twitter]][twitter], [Instagram][Instagram], [Github][Github] xd y [Youtube][Youtube]
+Me puedes encontrar en gran parte de las redes sociales como @santigo171, como en [twitter][twitter], [Instagram][Instagram], [Github][Github] xd y [Youtube][Youtube]
 
 [twitter]: http://twitter.com/santigo171 "twitter"
 [Instagram]: http://instagram.com/santigo171 "Instagram"
