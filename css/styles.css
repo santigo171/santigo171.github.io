@@ -54,7 +54,7 @@ li {
   margin: 10px;
 }
 
-.button > a {
+.button>a {
   color: #000;
 }
 
@@ -123,7 +123,7 @@ header {
   border-radius: 20px;
   margin: 0 17px;
   object-fit: cover;
-  box-shadow: 14px 10px 9px 0px rgba(0,0,0,0.36);
+  box-shadow: 14px 10px 9px 0px rgba(0, 0, 0, 0.36);
 }
 
 .main__gallery--last {
@@ -163,7 +163,7 @@ footer {
   margin: 1rem;
 }
 
-.footer-credits > p {
+.footer-credits>p {
   margin: 10px 0;
   text-align: center;
 }
