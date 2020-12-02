@@ -1,4 +1,4 @@
-/*general*/
+/*GENERAl*/
 
 * {
   padding: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 a {
-  color: rgb(99, 99, 99);
+  color: rgb(66, 51, 51);
   text-decoration: none;
 }
 
@@ -36,18 +36,33 @@ h3 {
 
 p {
   font-family: 'Karla', sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
 }
 
 li {
   list-style: none;
 }
 
-/*styles*/
+.button {
+  background-color: rgb(72, 186, 221);
+  border-radius: 40px;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.button > a {
+  color: #000;
+}
+
+/* HEADER */
 
 header {
   height: 6rem;
-  background-color: rgb(67, 90, 149);
+  background-color: #272860;
   display: flex;
   padding: 1.5rem 1rem;
   justify-content: space-between;
@@ -58,108 +73,97 @@ header {
   width: 6rem;
 }
 
+/* SOCIAL ICONS */
+
+.header__social--button {
+  display: none;
+}
+
+/* PRESENTATION PHOTO AND TITLE */
+
 .presentation__photo {
   width: 100%;
+  height: auto;
 }
 
 .presentation__text {
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(206, 199, 199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  margin: 0;
+  padding: 10px 29px;
 }
 
-.presentation__text > h1 {
+.presentation__text>h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 3.5rem;
 }
 
+/* PICTURE GALLERY */
+
 .main__gallery {
-  width: 100%;
-  overflow: hidden;
-
-  animation: cambio 20s infinite;
-}
-
-.main__gallery ul {
   display: flex;
-  width: 900%;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #3E4281;
 }
 
-.main__gallery li {
-  width: 100%;
+.main__gallery>img,
+.main__gallery--last>img {
+  scroll-snap-align: center;
+  height: 247px;
+  width: 190px;
+  border-radius: 20px;
+  margin: 0 17px;
+  object-fit: cover;
+  box-shadow: 14px 10px 9px 0px rgba(0,0,0,0.36);
 }
 
-.main__gallery img {
-  height: 100%;
-  width: 100%;
+.main__gallery--last {
+  padding-right: 15px;
 }
 
-@keyframes cambio {
-  0% {margin-left: 0;}
-  20% {margin-left: 0;}
-
-  25% {margin-left: -100%;}
-  45% {margin-left: -100%;}
-
-  50% {margin-left: -200%;}
-  70% {margin-left: -200%;}
-
-  75% {margin-left: -300%;}
-  100% {margin-left: -300%;}
+.main__gallery--aling-right {
+  object-position: right;
 }
 
-
-.main__p {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.main__section {
-  padding: 1rem 2rem;
-}
-
-#web {
-  background-color: rgb(203, 203, 203);
-  background-image: url(../img/background/web.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#web__image {
-  width: 100%;
-}
-
-#portafolio-web > div {
-}
-
-.portafolio-item {
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.portafolio-item > a > img {
-  width: 75%;
-}
-
-.footer {
-  background-color: rgb(163, 163, 163);
+footer {
+  background-color: rgb(117, 119, 194);
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 1rem 0;
+  padding: 10px 25px;
   font-size: 1.5rem;
 }
 
-.footer__social {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.footer-title {
+  background-color: rgb(145, 145, 145);
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 
-.footer__social__icons > a > img {
-  width: 4.5rem;
+.footer-social {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 
+.footer-social>a>img {
+  width: 50px;
   margin: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+}
+
+.footer-credits > p {
+  margin: 10px 0;
+  text-align: center;
 }
