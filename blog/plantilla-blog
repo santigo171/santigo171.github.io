@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Soy David Hurtado, desarrollador web, aficionado a la producción audiovisual y a la fotografía, pero especialmente, a crear y aprender">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AQUI EL TITULO DE LA ENTRADA | David Hurtado Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="icon" href="../img/icons/hurtado-icon.png" type="image/png" />
+</head>
+
+<body>
+  
+  <header>
+    <a href="../index.html#blog"><h1 class="presentation">Blog de Soy David Hurtado</h1></a>
+    <a href="./index.html"><img src="../img/icons/hurtado-icon.png" alt="Logo de Soy David Hurtado" id="logo"></a>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="blogpost-title">AQUI EL TITULO DE LA ENTRADA</h1>
+      <div class="blogpost-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus dignissimos iure recusandae dicta est nihil vel dolorem necessitatibus, quaerat laudantium nesciunt temporibus quisquam ut ex blanditiis accusantium illo! Quae.</p>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus dignissimos iure recusandae dicta est nihil vel dolorem necessitatibus, quaerat laudantium nesciunt temporibus quisquam ut ex blanditiis accusantium illo! Quae.orem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus dignissimos iure recusandae dicta est nihil vel dolorem necessitatibus, quaerat laudantium nesciunt temporibus quisquam ut ex blanditiis accusantium illo! Quae.</p>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus dignissimos iure recusandae dicta est nihil vel dolorem necessitatibus, quaerat laudantium nesciunt temporibus quisquam ut ex blanditiis accusantium illo! Quae.</p>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus dignissimos iure recusandae dicta est nihil vel dolorem necessitatibus, quaerat laudantium nesciunt temporibus quisquam ut ex blanditiis accusantium illo! Quae.</p>
+        <p>¿Entonces?, me siento muy feliz de que te hayas leído mi blogpost: ¡Házmelo saber!, me encanta que me manden tweets, a <a target="_blank" href="https://twitter.com/santigo171">santigo171</a> así que ya tu sabe, ¿Qué te gustó?, ¿Qué no te gustó?, ¿Cómo podría mejorar?, espero tu tweet.</p>
+
+        <a href="../index.html#blog"><p>Mas entradas de blog dando click aquí</p></a>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <a class="footer-link" href="">
+      <h2>Mas información sobre mí, en esta página web</h2>
+      <img class="footer-link--img" src="../img/icons/hurtado-icon.png" alt="Enlace para ir a la pagina web">
+    </a>
+    <div class="footer-title">
+      <h2>¡Sigamos en contacto!</h2>
+    </div>
+
+    <div class="footer-social">
+      <a target="_blank" href="https://github.com/santigo171"><img src="https://i.postimg.cc/59nhddvg/github.png"
+          alt="GitHub de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://twitter.com/santigo171"><img src="https://i.postimg.cc/GhtZb7xC/twitter.png"
+          alt="Twitter de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://instagram.com/santigo171/"><img src="https://i.postimg.cc/pLn4FmSc/instagram.png"
+          alt="Instagram de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://www.youtube.com/channel/UC8ybvgST9znw2Bw0dKRIN4Q"><img
+          src="https://i.postimg.cc/65PFqrMG/youtube.png" alt="Youtube de David Hurtado" class="icon"></a>
+    </div>
+
+    <div class="footer-credits">
+      <p>Mira el repo de Github de esta página web <a target="_blank"
+          href="https://github.com/santigo171/santigo171.github.io">aquí</a></p>
+      <p>Íconos de redes sociales sacados de <a target="_blank"
+          href="https://es.vecteezy.com/vectores-gratis/icono-de-whatsapp">Vecteezy</a></p>
+    </div>
+
+    <div class="footer-goodbye">
+      <span class="smile-face"></span>
+      <p>Así es mis panas, tengo <b>mi propio blog</b></p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+html {
+  background-color: #121212;
+}
+
+header {
+  background-color: rgb(31, 31, 32);
+}
+
+.presentation {
+  color: white;
+}
+
+.blog-image {
+  max-width: 500px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  padding: 21px;
+  max-width: 700px;
+}
+
+.blogpost-title {
+  margin: 15px 0;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.blogpost-content > p {
+  margin: 15px 0;
+  color: #f4f7f5;
+  text-align: start;
+  line-height: 150%;
+}
+
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.199);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.footer-link--img {
+  max-width: 40px;
+  max-height: 40px;
+}
