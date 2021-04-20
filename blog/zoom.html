@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Soy David Hurtado, desarrollador web, aficionado a la producción audiovisual y a la fotografía, pero especialmente, a crear y aprender">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>¿Cómo poner un video pregrabado en Zoom? | David Hurtado Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="icon" href="../img/icons/hurtado-icon.png" type="image/png" />
+</head>
+
+<body>
+  
+  <header>
+    <a href="../index.html#blog"><h1 class="presentation">Blog de Soy David Hurtado</h1></a>
+    <a href="./index.html"><img src="../img/icons/hurtado-icon.png" alt="Logo de Soy David Hurtado" id="logo"></a>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="blogpost-title">¿Cómo poner un video pregrabado en Zoom?</h1>
+      <div class="blogpost-content">
+        <p>Vamos al grano, tu estás desayunando, o te dieron ganas de ir al baño, etc. en clases virtuales, y en tu colegio es obligatorio tener la cámara encendida en todo momento. Aquí traigo una solución: Poner un video que se repita infinitamente en vez de tu cámara, y te mostraré 2 maneras de hacerlo.</p>
+        <h3>1. La fácil y sin descargar programas:</h3>
+        <p><b>1. Graba un video</b>, de aproximadamente 20 segundos, que se vea natural, que la cámara esté en la misma posición en la que acostumbra, que tus gestos sean iguales, y que no muevas mucho tu cuerpo, ojos o cabeza.</p>
+
+        <p> Si no tienes ninguna app para grabar te recomiendo una que viene en windows 10 por defecto: Cámara</p>
+        <img src="../img/blog/blog-7-2.jpg" alt="Screenshot of the camera app">
+        <p>Cuándo termines ve a la parte derecha abajo de la aplicación, en ese cuadradito verás la galeria, y le das a los 3 punticos de arriba donde dice abrir carpeta. Ahí encontrarás el archivo</p>
+
+        <p><b>2. Abre zoom</b> y ve a las configuraciones de video. Abre la sección de fondos virtuales y agrega un fondo virtual de video, luego buscarás el archivo que grabaste antes y lo vas a seleccionar. Puede que a algunos computadores no les aparezca esta opción, así que recomiendo ir a ver la segunda manera de hacerlo en este blogpost.</p>
+        
+        <img src="../img/blog/blog-7-3.jpg" alt="Screenshot of Zoom">
+        
+        <p><b>3. Pon un papel que tape tu cámara.</b> Esto es necesario para evitar que se vean dos personas en tu cámara, porque no estamos poniendo un video para que se reproduzca, estamos poniendo un fondo para nosotros.</p>
+        <img src="../img/blog/blog-7-4.jpg" alt="Screenshot of Zoom">
+        <p>Y listo! Esta solución es para quienes no quieren instalar mas programas, pero a mi opinión no es la mas cómoda, porque si me llaman, es tedioso volver a poner mi cámara original.</p>
+
+        <h3>2. La profesional, con OBS:</h3>
+        <p>Antes de comenzar, aviso que sólo las personas con Windows 10 pueden usar esta segunda solución.</p>
+        <p>1. Descarga <a target="_blank" href="https://obsproject.com/">OBS</a>, el programa para hacer streams por excelencia, y también instala una extensión de OBS llamada <a target="_blank" href="https://github.com/Fenrirthviti/obs-virtual-cam/releases">virtual camera</a> (Baja a donde dice "assets" y descarga el archivo que diga "installer"). Ya que descargarte los 2 archivos, ejecútalos para que se instalen.</p>
+        <p>2. Abre OBS y crea una nueva escena como lo indica la imagen, puedes ponerle el nombre que quieras, pero te recomiendo que tenga el color de la prenda del video si es que quieres tener más de un video, como es mi caso.</p>
+        <img src="../img/blog/blog-7-5.jpg" alt="Screenshot of OBS">
+
+        <p>3. Le vas a dar donde dice Sources y vas a agregar uno nuevo como se ve en la imagen, que sea un Media Source</p>
+        <img src="../img/blog/blog-7-6.jpg" alt="Screenshot of OBS">
+
+        <p>4. En la nueva ventana que se te abrió vas a poner la ruta del archivo, y asegúrate de marcar la casilla llamada loop.</p>
+        <img src="../img/blog/blog-7-7.jpg" alt="Screenshot of OBS">
+        <p>Con esto ya tendrías todo listo, Los pasos que están de ahora en adelante los vas a tener que hacer cada vez que quieras poner el video:</p>
+        <p><b>1. Abre OBS</b>, en la parte de arriba donde dice herramientas, selecciona la que dice VirtualCam.</p>
+        <img src="../img/blog/blog-7-8.jpg" alt="Screenshot of OBS">
+        <p><b>2. Presiona start</b></p>
+        <img src="../img/blog/blog-7-10.jpg" alt="Screenshot of OBS">
+        <p><b>3. Selecciona la cámara en zoom,</b> alguna de las 2 que aparece te debería funcionar. Y para cuando quieras quitar el video y poner tu cámara original, aquí mismo la seleccionas.</p>
+        <img src="../img/blog/blog-7-9.jpg" alt="Screenshot of OBS">
+
+        <p>Esta es una solución mas profesional, debido a que con OBS puedes hacer un montón de cosas más. Espero que te haya gustado este blogpost y sobre todo, que te haya servido. Considera compartirlo con tus mejores amigos.</p>
+
+        <p>¿Entonces?, me siento muy feliz de que te hayas leído mi blogpost: ¡Házmelo saber!, me encanta que me manden tweets, a <a target="_blank" href="https://twitter.com/santigo171">santigo171</a> así que ya tu sabe, ¿Qué te gustó?, ¿Qué no te gustó?, ¿Cómo podría mejorar?, espero tu tweet.</p>
+
+        <a href="../index.html#blog"><p>Mas entradas de blog dando click aquí</p></a>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <a class="footer-link" href="../index.html">
+      <h2>Mas información sobre mí, en esta página web</h2>
+      <img class="footer-link--img" src="../img/icons/hurtado-icon.png" alt="Enlace para ir a la pagina web">
+    </a>
+    <div class="footer-title">
+      <h2>¡Sigamos en contacto!</h2>
+    </div>
+
+    <div class="footer-social">
+      <a target="_blank" href="https://github.com/santigo171"><img src="https://i.postimg.cc/59nhddvg/github.png"
+          alt="GitHub de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://twitter.com/santigo171"><img src="https://i.postimg.cc/GhtZb7xC/twitter.png"
+          alt="Twitter de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://instagram.com/santigo171/"><img src="https://i.postimg.cc/pLn4FmSc/instagram.png"
+          alt="Instagram de David Hurtado" class="icon"></a>
+
+      <a target="_blank" href="https://www.youtube.com/channel/UC8ybvgST9znw2Bw0dKRIN4Q"><img
+          src="https://i.postimg.cc/65PFqrMG/youtube.png" alt="Youtube de David Hurtado" class="icon"></a>
+    </div>
+
+    <div class="footer-credits">
+      <p>Mira el repo de Github de esta página web <a target="_blank"
+          href="https://github.com/santigo171/santigo171.github.io">aquí</a></p>
+      <p>Íconos de redes sociales sacados de <a target="_blank"
+          href="https://es.vecteezy.com/vectores-gratis/icono-de-whatsapp">Vecteezy</a></p>
+    </div>
+
+    <div class="footer-goodbye">
+      <span class="smile-face"></span>
+      <p>Así es mis panas, tengo <b>mi propio blog</b></p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

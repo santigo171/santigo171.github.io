@@ -278,6 +278,11 @@ header {
   padding: 0 15px;
 }
 
+.blog__post > a > img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
 .pin-icon--blog {
   background-image: none;
 }
