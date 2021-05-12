@@ -8,6 +8,8 @@
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content="./img/icons/hurtado-icon.png">
+
   <title>Home | Soy David Hurtado</title>
   <link href="https://fonts.googleapis.com/css2?family=Karla&family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
@@ -58,19 +60,16 @@
 
   <main>
     <section class="main__gallery">
-
-      <img loading ="lazy" src="./img/gallery/photo1.jpg" alt="Hurtado en el Falabella">
-      <img loading ="lazy" class="main__gallery--aling-right" src="./img/gallery/photo2.jpg" alt="Hurtado en un helicóptero">
-      <img loading ="lazy" src="./img/gallery/photo3.jpg" alt="Hurtado en la piedra del peñón">
-      <img loading ="lazy" src="./img/gallery/photo4.jpg" alt="Hurtado frente un árbol">
-      <img loading ="lazy" src="./img/gallery/photo5.jpg" alt="Hurtado subiendo a un avión">
-      <img loading ="lazy" src="./img/gallery/photo6.jpg" alt="Hurtado alimentando palomas">
-      <img loading ="lazy" src="./img/gallery/photo7.jpg" alt="Hurtado con un perrito">
-      <img loading ="lazy" src="./img/gallery/photo9.jpg" alt="Hurtado en la piscina">
-      <div class="main__gallery--last"><img src="./img/gallery/photo8.jpg" alt="Hurtado elegante"></div>
-
-    </section>
-
+      <img loading="lazy" src="./img/gallery/photo10.jpg" alt="David Hurtado en su cumpleaños número 14.">
+      <img loading="lazy" src="./img/gallery/photo1.jpg" alt="David Hurtado en el Falabella">
+      <img loading="lazy" class="main__gallery--aling-right" src="./img/gallery/photo2.jpg" alt="David Hurtado en un helicóptero">
+      <img loading="lazy" src="./img/gallery/photo3.jpg" alt="David Hurtado en la piedra del peñón">
+      <img loading="lazy" src="./img/gallery/photo4.jpg" alt="David Hurtado frente un árbol">
+      <img loading="lazy" src="./img/gallery/photo5.jpg" alt="David Hurtado subiendo a un avión">
+      <img loading="lazy" src="./img/gallery/photo6.jpg" alt="David Hurtado alimentando palomas">
+      <img loading="lazy" src="./img/gallery/photo7.jpg" alt="David Hurtado con un perrito">
+      <img loading="lazy" src="./img/gallery/photo9.jpg" alt="David Hurtado en la piscina">
+      <div class="main__gallery--last"><img src="./img/gallery/photo8.jpg" alt="David Hurtado elegante"></div>
     </section>
 
     <section class="main__blog" id="blog">
@@ -94,17 +93,47 @@
           </a>
         </div>
 
+        <!-- <div class="blog__post">
+          <a href="./blog/padre-rico.html">
+            <div class="blog__post--header">
+              <span></span>
+              <h3>Lecciones de Padre Rico</h3>
+              <div class="blog__post--header--aditional-info">
+                <p>4 min</p>
+                <p>7/5/21</p>
+              </div>
+            </div>
+            <img loading ="lazy" src="./img/blog/blog-8.jpg" alt="Portada del libro: Padre Rico Padre Pobre de Robert Kiyosaki.">
+            <div class="blog__post--footer"><p>Las lecciones mas importantes del libro Padre Rico padre pobre de Robert Kiyosaki.</p></div>
+          </a>
+        </div> -->
+
+        <div class="blog__post">
+          <a href="./blog/lider.html">
+            <div class="blog__post--header">
+              <span></span>
+              <h3>Un buen líder no solo da órdenes: 10 claves de liderazgo efectivo.</h3>
+              <div class="blog__post--header--aditional-info">
+                <p>1 min</p>
+                <p>11/5/21</p>
+              </div>
+            </div>
+            <img loading ="lazy" src="./img/blog/blog-9.jpg" alt="Portada del libro: Lecciones de Liderazgo Creativo de Robert Iger.">
+            <div class="blog__post--footer"><p>Inspirado en el libro "Lecciones de liderazgo creativo" de Robert Iger.</p></div>
+          </a>
+        </div>
+
         <div class="blog__post">
           <a href="./blog/zoom.html">
             <div class="blog__post--header">
               <span></span>
-              <h3>¿Cómo poner un video pregrabado en Zoom?.</h3>
+              <h3>¿Cómo poner un video pregrabado en Zoom?</h3>
               <div class="blog__post--header--aditional-info">
                 <p>4 min</p>
                 <p>20/4/21</p>
               </div>
             </div>
-            <img loading ="lazy" src="./img/blog/blog-7.jpg" alt="Foto de un apple watch">
+            <img loading ="lazy" src="./img/blog/blog-7.jpg" alt="Logo de zoom">
             <div class="blog__post--footer"><p>Una ayuda muy grande para las clases virtuales.</p></div>
           </a>
         </div>
@@ -228,29 +257,29 @@
 
     <div class="footer-goodbye">
       <span class="smile-face"></span>
-      <p>Así es mis panas, tengo mi página web</p>
+      <p>Así es mis panas, tengo una página web</p>
     </div>
 
   </footer>
 
   <script>
     let i = 0;
-    var x = document.getElementsByClassName("blog__post");
-    var counter = 1;
+    let blogPost_array = document.getElementsByClassName("blog__post");
+    let counter = 1;
 
-let button = document.querySelector('#blog__post-container--button').addEventListener('click', function() {
+    let button = document.getElementById('blog__post-container--button')
 
-  if(!i) {
-    document.getElementById('blog__post-container--button').style.display = 'none';
-    while (counter <= 5) {
-      x[counter].style.display = 'block';
-      counter += 1;
-    }
-    i = 1;
-  }
-
-})
-  </script>
+    button.addEventListener('click', function() {
+      if(!i) {
+        button.style.display = 'none';
+        while (counter < blogPost_array.length) {
+          blogPost_array[counter].style.display = 'block';
+          counter += 1;
+        }
+        i = 1;
+      }
+    })
+    </script>
 
 </body>
 
