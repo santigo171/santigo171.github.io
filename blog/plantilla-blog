@@ -13,6 +13,27 @@
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/blog.css">
   <link rel="icon" href="../img/icons/hurtado-icon.png" type="image/png" />
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="AQUI EL TITULO DE LA ENTRADA | David Hurtado Blog">
+  <meta name="description"
+    content="PRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFO.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content=".">
+  <meta property="og:title" content="AQUI EL TITULO DE LA ENTRADA | David Hurtado Blog">
+  <meta property="og:description"
+    content="PRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFO.">
+  <meta property="og:image" content="https://santigo171.github.io/img/icons/hurtado-icon.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content=".">
+  <meta property="twitter:title" content="AQUI EL TITULO DE LA ENTRADA | David Hurtado Blog">
+  <meta property="twitter:description"
+    content="PRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFOPRIMER PARRAFO PRIMER PARRAFO.">
+  <meta property="twitter:image" content="https://santigo171.github.io/img/icons/hurtado-icon.png">
 </head>
 
 <body>

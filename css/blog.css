@@ -24,6 +24,17 @@ h3 {
   font-size: 2.4rem;
 }
 
+iframe[id^='twitter-widget-'] {
+  width: 100% !important;
+}
+
+blockquote > p, .blogpost-date {
+  margin: 15px 0;
+  color: #f4f7f5;
+  text-align: start;
+  line-height: 150%;
+}
+
 .container {
   padding: 21px;
   max-width: 700px;
